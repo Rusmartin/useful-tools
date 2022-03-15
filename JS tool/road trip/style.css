@@ -1,0 +1,95 @@
+body {
+    background-image: linear-gradient(to right, #ffffff , #eeeeee);
+    color: #ffffff;
+    display: grid;
+    align-content: center;
+    height: 80vh;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    width: 90%;
+}
+main {
+    border: solid 2px #333333;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    height: auto;
+    width: 320px;
+    margin: auto;
+    border-radius: 30px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height: 500px;
+    position: relative;
+}
+.dblgrid {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #516A89;
+    padding: 15px;
+    border-radius: 20px;
+    min-height: 137px;
+    color: #ffffff;
+    text-align: center;
+}
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: #243748;
+    color: #ffffff;
+    cursor: pointer;
+}
+.topbottom {
+    border-bottom: none;
+    height: 29px;
+    background-color: #133B5F;
+    width: 50px;
+    bottom: 72px;
+    left: 115px;
+    margin-top: -100px;
+    margin-left: ;
+    border-radius: 50px 50px 0px 0;
+}
+.bottomnav {
+    border-top: solid #516a89 7px;
+    height: 40px;
+    background-color: #243748;
+    width: 100%;
+    bottom: 0;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    display: grid;
+    align-content: center;
+    margin-top: 10px;
+}
+.btncontainer {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+.btncontainer a {
+    color: #516a89;
+}
+
+select {
+  background-color: #243748;
+  color: #ffffff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+select:active {
+  border: none;
+}
